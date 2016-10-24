@@ -27,9 +27,10 @@ $base02:    #073642;
 $base01:    #ffdeb5;
 $base00:    #657b83;
 $base0:     #839496;
-$base1:     #93a1a1;
-$base2:     #eee8d5;
+$base1:     #781D21; //#eee8d5;
+$base2:     #ffdeb5;
 $base3:     #fdf6e3;
+
 $yellow:    #b58900;
 $orange:    #cb4b16;
 $red:       #dc322f;
@@ -40,15 +41,16 @@ $cyan:      #2aa198;
 $green:     #859900;
 $black:		#071e22;
 $redish:	#781D21;
-$hover-color: #ff2600;
+$hover-color: #06d6cd;
+$blue-black: #043bd2;
 
 // Override theme settings (see ../template/settings.scss)
 $mainColor: $base1;
 $headingColor: $base2;
 $headingTextShadow: none;
 $backgroundColor: $base03;
-$linkColor: $redish;
-$linkColorHover: lighten( $linkColor, 20% ); //$hover-color;
+$linkColor: $base02;
+$linkColorHover: $hover-color; //lighten( $linkColor, 10% );
 $selectionBackgroundColor: $magenta;
 
 
